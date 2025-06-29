@@ -4,9 +4,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing", "testing", "{D31F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{AA4A133F-5F03-41DF-BD45-40B8A46F8B37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.DiscriminatedUnions", "toolbox.DiscriminatedUnions\toolbox.DiscriminatedUnions.csproj", "{A16A8D34-92E2-4F1D-8ABF-7E265ED87839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.DiscriminatedUnions.Tests", "toolbox.DiscriminatedUnions.Tests\toolbox.DiscriminatedUnions.Tests.csproj", "{EF13D394-B49B-43CB-ACC2-40F6CF1A1752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A16A8D34-92E2-4F1D-8ABF-7E265ED87839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16A8D34-92E2-4F1D-8ABF-7E265ED87839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16A8D34-92E2-4F1D-8ABF-7E265ED87839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16A8D34-92E2-4F1D-8ABF-7E265ED87839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752} = {D31F38CC-4870-4F29-B756-5808BCBFEF0B}
 	EndGlobalSection
 EndGlobal
