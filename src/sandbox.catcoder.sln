@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.DiscriminatedUnions
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.DiscriminatedUnions.Tests", "toolbox.DiscriminatedUnions.Tests\toolbox.DiscriminatedUnions.Tests.csproj", "{EF13D394-B49B-43CB-ACC2-40F6CF1A1752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.Duplicatables", "toolbox.Duplicatables\toolbox.Duplicatables.csproj", "{A2B94B21-AEDD-486A-A331-9511749099EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B94B21-AEDD-486A-A331-9511749099EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B94B21-AEDD-486A-A331-9511749099EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B94B21-AEDD-486A-A331-9511749099EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B94B21-AEDD-486A-A331-9511749099EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752} = {D31F38CC-4870-4F29-B756-5808BCBFEF0B}
