@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.DiscriminatedUnions
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.Duplicatables", "toolbox.Duplicatables\toolbox.Duplicatables.csproj", "{A2B94B21-AEDD-486A-A331-9511749099EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.Observables", "toolbox.Observables\toolbox.Observables.csproj", "{5ED4B393-311F-47BA-94D7-38D4F0E96F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toolbox.Observables.Tests", "toolbox.Observables.Tests\toolbox.Observables.Tests.csproj", "{6E133588-2832-40FD-833A-E4357B42AF12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,8 +32,17 @@ Global
 		{A2B94B21-AEDD-486A-A331-9511749099EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2B94B21-AEDD-486A-A331-9511749099EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2B94B21-AEDD-486A-A331-9511749099EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED4B393-311F-47BA-94D7-38D4F0E96F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED4B393-311F-47BA-94D7-38D4F0E96F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED4B393-311F-47BA-94D7-38D4F0E96F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED4B393-311F-47BA-94D7-38D4F0E96F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E133588-2832-40FD-833A-E4357B42AF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E133588-2832-40FD-833A-E4357B42AF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E133588-2832-40FD-833A-E4357B42AF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E133588-2832-40FD-833A-E4357B42AF12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EF13D394-B49B-43CB-ACC2-40F6CF1A1752} = {D31F38CC-4870-4F29-B756-5808BCBFEF0B}
+		{6E133588-2832-40FD-833A-E4357B42AF12} = {D31F38CC-4870-4F29-B756-5808BCBFEF0B}
 	EndGlobalSection
 EndGlobal
